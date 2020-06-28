@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HexagonGrid should render the HexagonGrid Component correctly 1`] = `
+<HexGrid
+  height={1000}
+  viewBox="-50 -50 100 100"
+  width="100%"
+>
+  <Layout
+    className="tiles"
+    flat={true}
+    origin={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    size={
+      Object {
+        "x": 8,
+        "y": 8,
+      }
+    }
+    spacing={1.005}
+  >
+    <Hexagon
+      data={
+        Object {
+          "name": "test",
+          "x": 1,
+          "y": 2,
+          "z": 3,
+        }
+      }
+      key="0"
+      q={1}
+      r={3}
+      s={2}
+    >
+      <Text
+        className="name"
+      >
+        test
+      </Text>
+    </Hexagon>
+  </Layout>
+</HexGrid>
+`;

@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClusterContainer should render the ClusterContainer Component correctly 1`] = `
+<div>
+  <h2
+    className="clusterHeader"
+  >
+    Covid Cluster
+  </h2>
+  <div>
+    <Row
+      align="middle"
+      className="addHexagonWrapper"
+      gutter={
+        Array [
+          12,
+          12,
+        ]
+      }
+      justify="center"
+    >
+      <Col
+        span={4}
+      >
+        <div
+          id="label"
+        >
+           Root Hexagon 
+        </div>
+        <Input
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </Col>
+      <Col
+        span={4}
+      >
+        <div
+          id="label"
+        >
+           Target Hexagon 
+        </div>
+        <Input
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </Col>
+      <Col
+        span={1}
+      >
+        <div
+          id="label"
+        >
+           Position 
+        </div>
+        <ForwardRef
+          max={5}
+          min={0}
+          onChange={[Function]}
+          step={1}
+          value=""
+        />
+      </Col>
+      <Col
+        span={4}
+      >
+        <Button
+          block={false}
+          ghost={false}
+          htmlType="button"
+          loading={false}
+          onClick={[Function]}
+        >
+           Add Hexagon 
+        </Button>
+      </Col>
+    </Row>
+    <Row
+      align="middle"
+      gutter={0}
+      justify="center"
+    >
+      <Col
+        span={3}
+      >
+        <Select
+          bordered={true}
+          choiceTransitionName="zoom"
+          filterOption={[Function]}
+          onChange={[Function]}
+          optionFilterProp="children"
+          placeholder="Select a hexagon"
+          showSearch={true}
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+          transitionName="slide-up"
+          value=""
+        />
+      </Col>
+      <Col
+        span={1}
+      >
+        <Button
+          block={false}
+          ghost={false}
+          htmlType="button"
+          loading={false}
+          onClick={[Function]}
+        >
+           Remove Hexagon 
+        </Button>
+      </Col>
+    </Row>
+  </div>
+  <HexagonGrid
+    hexagonList={Array []}
+  />
+</div>
+`;
